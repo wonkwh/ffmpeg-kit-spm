@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>libswresample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.arthenica.ffmpegkit.Libswresample</string>
+	<string>com.ffmpegkit.Libswresample</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -15,9 +15,9 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4.7.100</string>
+	<string>5.3.100</string>
 	<key>CFBundleVersion</key>
-	<string>4.7.100</string>
+	<string>5.3.100</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>MinimumOSVersion</key>

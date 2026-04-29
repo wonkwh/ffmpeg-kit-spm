@@ -26,7 +26,7 @@ echo "Install build dependencies..."
 brew install autoconf automake libtool pkg-config curl git doxygen nasm bison wget gettext gh
 
 echo "Building for iOS..."
-./ios.sh --enable-ios-audiotoolbox --enable-ios-avfoundation --enable-ios-videotoolbox --enable-ios-zlib --enable-ios-bzip2 --no-bitcode --enable-gmp --enable-gnutls -x
+./ios.sh --enable-ios-audiotoolbox --enable-ios-avfoundation --enable-ios-videotoolbox --enable-ios-zlib --enable-ios-bzip2 --no-bitcode --enable-gmp --enable-gnutls -x --disable-arm64e
 echo "Building for tvOS..."
 ./tvos.sh --enable-tvos-audiotoolbox --enable-tvos-videotoolbox --enable-tvos-zlib --enable-tvos-bzip2 --no-bitcode --enable-gmp --enable-gnutls -x
 echo "Building for macOS..."
