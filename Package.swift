@@ -3,18 +3,9 @@
 
 import PackageDescription
 
-let release = "min.v5.1.2.6"
+let release = "min.v5.1.2.14"
 
-let frameworks = ["libavcodec": "76fa59832f38bb98473fa8e0234817f2213d4dcd3f92e4fc81dbccc7b2242836", "libavdevice": "d495b3b820f11a1ac794de42b5261e73ac6d573a62df9ba9091db45fdaa913ce", "libavfilter": "bb4a92545bd8d95c0cf2dc9b5e6bf5110428fc4fb2347571579172458d51352d", "libavformat": "952669faa0cde7bbb0ab00b78864f1d13c5d26c2200e41a5926837f0f45588d4", "libavutil": "71633aca27aeb3993dc951015c090ef42dfd95ef7833f9a13910a388a52881eb", "libswresample": "e34aed2b38050fdf35e35d79828a7725d0eaaf4fd4201698b895959403b99dbc", "libswscale": "04ff98ab2f6fe603d94c7e2688cc8d69d0f4304f4ac33e3cc551515690363a8c"]
-  "ffmpegkit": "2a786433c59eb360afded9fa6a24d9f3a41ad20701eaadd14eb419bdc5248b28",
-  "libavcodec": "ef57c2a96c365e07552e53d9359e0588bc4ab8b28f378cec8603f489a2bf1b99",
-  "libavdevice": "249c7eb01ed2f5ffd7d0c1f4c48a1a8ed4bad3bc5e3e94331396149e6d6a63a8",
-  "libavfilter": "c2c76167560aa419bde9846ea2afd378302684fddafb9996cfadb68034307727",
-  "libavformat": "895162425e8dcded28c3be4530d98567cbdc1f4ff8120480a875edd3d3164f49",
-  "libavutil": "5f93be14e84339f5e8031fecb738ceacd2a493c7dba5074e6b0f12bf768072f0",
-  "libswresample": "aa4454a1856fff017ae29ea9d2df845c455a17499dc3856c1b3a7efe1862190f",
-  "libswscale": "51159c86dea0bbb80e133a49e454f27f88ac01f84d8f906883ef6a5ee414ab0e"
-]
+let frameworks = ["libavcodec": "7713d8527f4e9628499ef208e8ee20db21f07d387e701207242981de7d59378e", "libavdevice": "591023da4b2cf94584120750250833659420f35e78a7107c96b7e5f86fbeb403", "libavfilter": "9b7643e719fd18d4dc071f39349e2b888c6bce4e6f215a573bfb8df1fbfbfe0c", "libavformat": "77303e735d85fb2fc8b00bdebdc9f89014b884a274621a11a7f820af031a884f", "libavutil": "f36913abf278b7ae38ab655799f880aa9c591a4040d789871370c0d5fb0ddad1", "libswresample": "9ad2bd36002ffd3bd5ba72e909c809ccf568f24128c7fe4b07667fb810eb752b", "libswscale": "c06cbd6ce7548978181e197f3343625496aaf6aeb43eaf00029200a660e0a3b5"]
 
 func xcframework(_ package: Dictionary<String, String>.Element) -> Target {
     let url = "https://github.com/wonkwh/ffmpeg-kit-spm/releases/download/\(release)/\(package.key).xcframework.zip"
